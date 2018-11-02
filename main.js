@@ -1,4 +1,7 @@
 import Expo from "expo";
-import { App } from "./App/App";
+import { App } from "./components/App";
+import StoryBook from "./storybook";
 
-Expo.registerRootComponent(App);
+const main = true ? StoryBook : App;
+
+Expo.registerRootComponent(main);
