@@ -3,11 +3,9 @@
   "main": "./main.js",
   "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --android --localhost",
     "eject": "expo eject",
-    "storybook": "storybook start -p 7007 --skip-packager | STORYBOOK=1 expo start --localhost ",
+    "storybook": "storybook start -p 7007 --skip-packager | yarn start",
     "prestorybook": "rnstl"
   },
   "config": {
