@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { GetPointsButton } from "./GetPointsButton";
 
 export class App extends React.Component<{
   advanced?: boolean;
@@ -9,8 +10,9 @@ export class App extends React.Component<{
     return (
       <View style={styles.container}>
         {this.props.advanced ? <Text>ADVANCED MODE</Text> : null}
-        <Text>Open up App.tsx to start working on your app!</Text>
+        <Text>Open up App.tsx to start working on your buttoned app!</Text>
         {this.props.message ? <Text>{this.props.message}</Text> : null}
+        <GetPointsButton />
       </View>
     );
   }

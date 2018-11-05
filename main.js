@@ -1,5 +1,5 @@
 import Expo from "expo";
-import { App } from "./components/App";
+import { App } from "./src/components/App";
 import StoryBook from "./storybook";
 
 // TODO: conditionally apply this more intelligently - __DEV__ doesn't seem to work.
