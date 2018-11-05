@@ -27,7 +27,6 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1",
     "@storybook/addon-actions": "^3.4.11",
     "@storybook/addon-knobs": "^3.4.11",
     "@storybook/addon-links": "^3.4.11",
@@ -44,7 +43,9 @@
     "babel-plugin-module-alias": "^1.6.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-runtime": "^6.26.0",
+    "concurrently": "^4.0.1",
     "enzyme": "^3.7.0",
+    "expo-cli": "^2.2.6",
     "jest": "^23.6.0",
     "prop-types": "^15.6.2",
     "react-dom": "16.3.1",
