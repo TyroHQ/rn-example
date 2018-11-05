@@ -12,6 +12,8 @@ const StoryContainer = styled.View`
   background-color: #fff;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 `;
 
 const CenterDecorator = storyFn => <StoryContainer>{storyFn()}</StoryContainer>;

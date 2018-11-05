@@ -3,15 +3,17 @@
   "main": "./main.js",
   "private": true,
   "scripts": {
-    "start": "expo start --android ",
+    "start": "expo start ",
+    "start:local": "yarn start --localhost",
     "eject": "expo eject",
-    "storybook": "storybook start -p 7007 --skip-packager | yarn start --localhost",
-    "prestorybook": "rnstl"
+    "storybook": "adb reverse tcp:7007 tcp:7007 && storybook start -p 7007 --skip-packager",
+    "prestorybook": "rnstl",
+    "dev": "concurrently npm:start:local npm:storybook"
   },
   "config": {
     "react-native-storybook-loader": {
       "searchDir": [
-        "./components"
+        "./src/components"
       ],
       "pattern": "**/*.story.tsx",
       "outputFile": "./storybook/storyLoader.ts"
@@ -25,6 +27,7 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "concurrently": "^4.0.1",
     "@storybook/addon-actions": "^3.4.11",
     "@storybook/addon-knobs": "^3.4.11",
     "@storybook/addon-links": "^3.4.11",
