@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View } from "react-native";
-import { Placeholder } from "./Placeholder";
+import { Placeholder } from "../Placeholder";
 
 export class App extends React.Component<{}> {
   render() {
