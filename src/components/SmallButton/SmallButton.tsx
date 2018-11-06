@@ -11,10 +11,6 @@ const SmallButtonContainer = styled.View`
 export class SmallButton extends React.Component<{}> {
   static defaultProps: SmallButton["props"];
   render() {
-    return (
-      <Placeholder>
-        <Placeholder>SmallSquareButton</Placeholder>
-      </Placeholder>
-    );
+    return <Placeholder>SmallSquareButton</Placeholder>;
   }
 }
