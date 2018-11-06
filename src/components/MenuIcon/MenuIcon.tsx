@@ -11,10 +11,6 @@ const MenuIconContainer = styled.View`
 export class MenuIcon extends React.Component<{}> {
   static defaultProps: MenuIcon["props"];
   render() {
-    return (
-      <Placeholder>
-        <Placeholder>MenuIcon</Placeholder>
-      </Placeholder>
-    );
+    return <Placeholder>MenuIcon</Placeholder>;
   }
 }
