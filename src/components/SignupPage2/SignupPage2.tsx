@@ -22,8 +22,14 @@ export class SignupPage2 extends React.Component<{}> {
             For password and account security verification
           </Placeholder>
           <Placeholder orientation="row">
-            <Placeholder>Country code</Placeholder>
-            <Placeholder>Phone number</Placeholder>
+            <Placeholder orientation="column">
+              <Placeholder>Country code</Placeholder>
+              <Placeholder>Input field</Placeholder>
+            </Placeholder>
+            <Placeholder orientation="column">
+              <Placeholder>Phone number</Placeholder>
+              <Placeholder>Input field</Placeholder>
+            </Placeholder>
           </Placeholder>
           <Placeholder>Enter button</Placeholder>
         </Placeholder>
