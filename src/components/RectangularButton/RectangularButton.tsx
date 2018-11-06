@@ -11,11 +11,6 @@ const RectangularButtonContainer = styled.View`
 export class RectangularButton extends React.Component<{}> {
   static defaultProps: RectangularButton["props"];
   render() {
-    return (
-      <Placeholder orientation="row">
-        <Placeholder>Next button</Placeholder>
-        <Placeholder>Enter button</Placeholder>
-      </Placeholder>
-    );
+    return <Placeholder>Next button</Placeholder>;
   }
 }
