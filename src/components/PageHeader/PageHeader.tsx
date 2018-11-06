@@ -13,14 +13,9 @@ export class PageHeader extends React.Component<{}> {
   render() {
     return (
       <Placeholder>
-        <Placeholder>
-          PageHeader Component
-          <Placeholder>
-            PageHeader content
-            <Placeholder>Back icon</Placeholder>
-            <Placeholder>Header text</Placeholder>
-          </Placeholder>
-        </Placeholder>
+        PageHeader Component
+        <Placeholder>Back icon</Placeholder>
+        <Placeholder>Header text</Placeholder>
       </Placeholder>
     );
   }
