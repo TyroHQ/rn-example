@@ -15,8 +15,10 @@ export class RatingsBar extends React.Component<{}> {
       <Placeholder>
         Ratings bar
         <Placeholder>Explainer text - 5 stars</Placeholder>
-        <Placeholder>Rectangle 2.4 background</Placeholder>
-        <Placeholder>Rectangle 2.5 fill</Placeholder>
+        <Placeholder>
+          Rectangle white
+          <Placeholder>Rectangle green</Placeholder>
+        </Placeholder>
         <Placeholder>Explainer text - 5 people</Placeholder>
       </Placeholder>
     );
