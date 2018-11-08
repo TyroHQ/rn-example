@@ -14,9 +14,9 @@ export class RatingsBar extends React.Component<{}> {
     return (
       <Placeholder>
         Ratings bar
-        <Placeholder>Rectangle 2.5</Placeholder>
-        <Placeholder>Rectangle 2.4</Placeholder>
         <Placeholder>Explainer text - 5 stars</Placeholder>
+        <Placeholder>Rectangle 2.4 background</Placeholder>
+        <Placeholder>Rectangle 2.5 fill</Placeholder>
         <Placeholder>Explainer text - 5 people</Placeholder>
       </Placeholder>
     );
