@@ -2,6 +2,7 @@ import React from "react";
 import { Text } from "react-native";
 import styled from "styled-components/native";
 import { Placeholder } from "../Placeholder";
+import { CornerBanner } from "../CornerBanner";
 
 const BusinessListingOrderContainer = styled.View`
   background-color: lightgrey;
@@ -16,13 +17,7 @@ export class BusinessListingOrder extends React.Component<{}> {
         Business listing container
         <Placeholder>
           Left White container
-          <Placeholder>
-            corner banner
-            <Placeholder>
-              Green polygon
-              <Placeholder>Join text</Placeholder>
-            </Placeholder>
-          </Placeholder>
+          <CornerBanner />
           <Placeholder>Business logo</Placeholder>
         </Placeholder>
         <Placeholder>
