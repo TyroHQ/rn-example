@@ -3,6 +3,8 @@ import { Text } from "react-native";
 import styled from "styled-components/native";
 import { Placeholder } from "../Placeholder";
 import { BusinessListingOrder } from "../BusinessListingOrder";
+import { PointStatusBox } from "../PointStatusBox";
+import { RewardTileHeader } from "../RewardTileHeader";
 
 const BusinessListingContainer = styled.View`
   background-color: lightgrey;
@@ -20,59 +22,17 @@ export class BusinessListing extends React.Component<{}> {
           Dropdown white Container
           <Placeholder>
             Point status Boxes
-            <Placeholder>
-              Box one
-              <Placeholder>
-                Grey Input Placeholder
-                <Placeholder>Placeholder available points</Placeholder>
-              </Placeholder>
-              <Placeholder>
-                White background box
-                <Placeholder>Points in figures</Placeholder>
-              </Placeholder>
-            </Placeholder>
-            <Placeholder>
-              Box two
-              <Placeholder>
-                Grey Input Placeholder
-                <Placeholder>My Visits</Placeholder>
-              </Placeholder>
-              <Placeholder>
-                White background box
-                <Placeholder>Number of visits in figures</Placeholder>
-              </Placeholder>
-            </Placeholder>
-            <Placeholder>
-              Box three
-              <Placeholder>
-                Grey Input Placeholder
-                <Placeholder>Redeemed</Placeholder>
-              </Placeholder>
-              <Placeholder>
-                White background box
-                <Placeholder>Redeemed Rewards in figures</Placeholder>
-              </Placeholder>
-            </Placeholder>
+            <PointStatusBox />
+            <PointStatusBox />
+            <PointStatusBox />
           </Placeholder>
-        </Placeholder>
-        <Placeholder>
-          Unlocked stamps closed
+          <RewardTileHeader />
           <Placeholder>
-            Content frame
-            <Placeholder>
-              Right aligned content
-              <Placeholder>Offer Headline</Placeholder>
-              <Placeholder>Explainer Text</Placeholder>
-            </Placeholder>
-            <Placeholder>Unlocked</Placeholder>
+            White Buttons
+            <Placeholder>Business info button</Placeholder>
+            <Placeholder>Reward Rules button</Placeholder>
+            <Placeholder>Notifications button</Placeholder>
           </Placeholder>
-          <Placeholder>Down Icon</Placeholder>
-        </Placeholder>
-        <Placeholder>
-          White Buttons
-          <Placeholder>Business info button</Placeholder>
-          <Placeholder>Reward Rules button</Placeholder>
-          <Placeholder>Notifications button</Placeholder>
         </Placeholder>
       </Placeholder>
     );
