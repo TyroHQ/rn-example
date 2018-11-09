@@ -3,6 +3,7 @@ import { Text } from "react-native";
 import styled from "styled-components/native";
 import { Placeholder } from "../Placeholder";
 import { RewardTileHeader } from "../RewardTileHeader";
+import { SmallPointStatusBox } from "../SmallPointStatusBox";
 
 const LockedRewardContainer = styled.View`
   background-color: lightgrey;
@@ -18,30 +19,9 @@ export class LockedReward extends React.Component<{}> {
         <RewardTileHeader />
         <Placeholder>
           White container
-          <Placeholder>
-            Small point status box
-            <Placeholder>Points required</Placeholder>
-            <Placeholder>
-              Grey container
-              <Placeholder>3</Placeholder>
-            </Placeholder>
-          </Placeholder>
-          <Placeholder>
-            Small point status box
-            <Placeholder>Points earned</Placeholder>
-            <Placeholder>
-              Grey container
-              <Placeholder>1</Placeholder>
-            </Placeholder>
-          </Placeholder>
-          <Placeholder>
-            Small point status box
-            <Placeholder>Points Needed</Placeholder>
-            <Placeholder>
-              Grey container
-              <Placeholder>2</Placeholder>
-            </Placeholder>
-          </Placeholder>
+          <SmallPointStatusBox />
+          <SmallPointStatusBox />
+          <SmallPointStatusBox />
         </Placeholder>
       </Placeholder>
     );
