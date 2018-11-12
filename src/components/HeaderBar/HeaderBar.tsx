@@ -12,12 +12,10 @@ export class HeaderBar extends React.Component<{}> {
   static defaultProps: HeaderBar["props"];
   render() {
     return (
-      <Placeholder>
         <Placeholder orientation="row">
           <Placeholder>Menu icon </Placeholder>
           <Placeholder> Logo </Placeholder>
         </Placeholder>
-      </Placeholder>
     );
   }
 }
