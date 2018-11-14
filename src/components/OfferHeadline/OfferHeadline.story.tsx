@@ -1,11 +1,11 @@
 import { storiesOf } from "@storybook/react-native";
 import figmaDecorator from "storybook-addon-figma";
 
-import * as usage from "./Example1.usage";
+import * as usage from "./OfferHeadline.usage";
 
 let figma = undefined;
 
-let story = storiesOf("Example1", module);
+let story = storiesOf("OfferHeadline", module);
 
 if (figma) {
   story = story.addDecorator(
