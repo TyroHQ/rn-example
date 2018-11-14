@@ -3,8 +3,8 @@ import { Text } from "react-native";
 import styled from "styled-components/native";
 import { Placeholder } from "../Placeholder";
 import { RewardTileHeader } from "../RewardTileHeader";
-import { OfferHeadline } from "../OfferHeadline";
 import { RectangularButton } from "../RectangularButton";
+import { HeaderText } from "../Typography/HeaderText";
 
 const UnlockedRewardContainer = styled.View`
   background-color: lightgrey;
@@ -20,7 +20,7 @@ export class UnlockedReward extends React.Component<{}> {
         <RewardTileHeader />
         <Placeholder>
           Rectangle with white background
-          <OfferHeadline />
+          <HeaderText />
           <RectangularButton />
         </Placeholder>
       </Placeholder>
