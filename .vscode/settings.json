@@ -4,8 +4,12 @@
   "files.exclude": {
     "**/.git": true,
     "**/.vscode": true,
-    // "**/.blueprints": true,
-    "**/.storybook": true,
+    "**/.jest": true,
+    "**/.blueprints": true,
+    "**/coverage": true,
+    "**/typings": true,
+    "**/src/tyro": true,
+    "**/storybook": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
@@ -14,6 +18,9 @@
     "**/.DS_Store": true,
     ".gitignore": true,
     "yarn.lock": true,
+    "babel.config.js": true,
+    "jest.config.js": true,
+    "setupTests.js": true,
     "tsconfig.json": true
   },
   "editor.formatOnSave": true

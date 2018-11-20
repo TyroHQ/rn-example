@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingsBar /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Ratings bar
+  <Placeholder
+    orientation="row"
+  >
+    Explainer text - 5 stars
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Rectangle white
+    <Placeholder
+      orientation="row"
+    >
+      Rectangle green
+    </Placeholder>
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Explainer text - 5 people
+  </Placeholder>
+</Placeholder>
+`;

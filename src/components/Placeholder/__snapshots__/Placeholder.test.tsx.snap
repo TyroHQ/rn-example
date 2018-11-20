@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Placeholder /> renders well in basic mode 1`] = `
+<Styled(Component)
+  orientation="row"
+>
+  <Placeholder
+    key="0"
+    orientation="row"
+  >
+    This can be replaced
+  </Placeholder>
+  <Placeholder
+    key="1"
+    orientation="row"
+  >
+    This can be replaced
+  </Placeholder>
+  <Placeholder
+    key="2"
+    orientation="row"
+  >
+    This can be replaced
+  </Placeholder>
+</Styled(Component)>
+`;
+
+exports[`<Placeholder /> renders well in withNumber mode 1`] = `
+<Styled(Component)
+  orientation="row"
+>
+  5
+</Styled(Component)>
+`;
+
+exports[`<Placeholder /> renders well in withString mode 1`] = `
+<Styled(Component)
+  orientation="row"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Hello
+  </Text>
+</Styled(Component)>
+`;

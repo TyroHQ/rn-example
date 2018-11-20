@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SmallPointStatusBox /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  small point status box
+  <Placeholder
+    orientation="row"
+  >
+    Explainer text
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Explainer text - 2
+  </Placeholder>
+</Placeholder>
+`;

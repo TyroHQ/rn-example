@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RewardTileHeader /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Green background Rectangle
+  <Placeholder
+    orientation="row"
+  >
+    Reward tile frame
+    <Placeholder
+      orientation="row"
+    >
+      Left Aligned Text
+      <Placeholder
+        orientation="row"
+      >
+        Offer Headline
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Requirement
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Unlocked
+    </Placeholder>
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Drop down angle icon
+  </Placeholder>
+</Placeholder>
+`;

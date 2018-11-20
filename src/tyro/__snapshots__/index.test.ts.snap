@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadableContainer Creates empty containers correctly 1`] = `
+Object {
+  "clearError": [Function],
+  "clearErrors": [Function],
+  "errors": Object {},
+  "fail": [Function],
+  "items": Object {},
+  "pendingRequests": Array [],
+  "receive": [Function],
+  "request": [Function],
+  "requestOne": [Function],
+}
+`;

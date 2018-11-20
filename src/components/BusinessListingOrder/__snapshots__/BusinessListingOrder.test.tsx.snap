@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BusinessListingOrder/> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Business listing container
+  <Placeholder
+    orientation="row"
+  >
+    Left White container
+    <CornerBanner />
+    <Placeholder
+      orientation="row"
+    >
+      Business logo
+    </Placeholder>
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Right green container
+    <Placeholder
+      orientation="row"
+    >
+      Content frame
+      <Placeholder
+        orientation="row"
+      >
+        Left aligned items
+        <Placeholder
+          orientation="row"
+        >
+          Business name H4
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          Business type H5
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          City (Distance in km) H6
+        </Placeholder>
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Offer text
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Down icon
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;

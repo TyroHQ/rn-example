@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CoverPhoto /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Cover photo
+</Placeholder>
+`;

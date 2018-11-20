@@ -1,8 +1,8 @@
 import React from "react";
-import { Text } from "react-native";
-import styled from "styled-components/native";
+import { Text, View } from "react-native";
+import styled from "styled-components";
 
-const TitleTextContainer = styled.View`
+const TitleTextContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;

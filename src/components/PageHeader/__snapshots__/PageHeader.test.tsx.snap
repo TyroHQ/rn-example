@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  PageHeader Component
+  <Placeholder
+    orientation="row"
+  >
+    Back icon
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Header text
+  </Placeholder>
+</Placeholder>
+`;

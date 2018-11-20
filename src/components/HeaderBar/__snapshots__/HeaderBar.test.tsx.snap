@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBar /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  <Placeholder
+    orientation="row"
+  >
+    Menu icon 
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+     Logo 
+  </Placeholder>
+</Placeholder>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropDownMenu /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Drop down menu
+  <Placeholder
+    orientation="row"
+  >
+    selected text option
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Angle down icon
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Unselected list options
+    <Placeholder
+      orientation="row"
+    >
+      Option 1
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Option 2
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Option 3
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;

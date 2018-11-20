@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BusinessListing /> renders well in advanced mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Business Expanded Container
+  <BusinessListingOrder />
+  <Placeholder
+    orientation="row"
+  >
+    Dropdown white Container
+    <Placeholder
+      orientation="row"
+    >
+      Point status Boxes
+      <PointStatusBox />
+      <PointStatusBox />
+      <PointStatusBox />
+    </Placeholder>
+    <RewardTileHeader />
+    <Placeholder
+      orientation="row"
+    >
+      White Buttons
+      <Placeholder
+        orientation="row"
+      >
+        Business info button
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Reward Rules button
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Notifications button
+      </Placeholder>
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;
+
+exports[`<BusinessListing /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Business Expanded Container
+  <BusinessListingOrder />
+  <Placeholder
+    orientation="row"
+  >
+    Dropdown white Container
+    <Placeholder
+      orientation="row"
+    >
+      Point status Boxes
+      <PointStatusBox />
+      <PointStatusBox />
+      <PointStatusBox />
+    </Placeholder>
+    <RewardTileHeader />
+    <Placeholder
+      orientation="row"
+    >
+      White Buttons
+      <Placeholder
+        orientation="row"
+      >
+        Business info button
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Reward Rules button
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Notifications button
+      </Placeholder>
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;

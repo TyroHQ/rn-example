@@ -16,5 +16,5 @@ if (figma) {
 }
 
 for (const example in usage) {
-  story = story.add(example, usage[example]);
+  story = story.add(example, (usage as any)[example]);
 }

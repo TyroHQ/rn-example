@@ -1,8 +1,8 @@
 import React from "react";
-import { Text } from "react-native";
-import styled from "styled-components/native";
+import { Text, View } from "react-native";
+import styled from "styled-components";
 
-const PlaceholderContainer = styled.View<{ orientation: "row" | "column" }>`
+const PlaceholderContainer = styled(View)<{ orientation: "row" | "column" }>`
   border: 1px solid grey;
   padding: 10px;
   display: flex;
@@ -11,6 +11,13 @@ const PlaceholderContainer = styled.View<{ orientation: "row" | "column" }>`
   justify-content: center;
   flex: 1;
 `;
+
+function wrapString(c: React.ReactNode, i?: number): React.ReactNode {
+  if (typeof c === "string") return <Text key={i}>{c}</Text>;
+
+  if (React.isValidElement(c)) return React.cloneElement(c, { key: i });
+  return c;
+}
 
 export class Placeholder extends React.Component<{
   children?: React.ReactNode;
@@ -21,13 +28,12 @@ export class Placeholder extends React.Component<{
   };
 
   render() {
+    const children = Array.isArray(this.props.children)
+      ? this.props.children.map(wrapString)
+      : wrapString(this.props.children);
     return (
       <PlaceholderContainer orientation={this.props.orientation}>
-        {typeof this.props.children === "string" ? (
-          <Text>{this.props.children}</Text>
-        ) : (
-          this.props.children
-        )}
+        {children}
       </PlaceholderContainer>
     );
   }

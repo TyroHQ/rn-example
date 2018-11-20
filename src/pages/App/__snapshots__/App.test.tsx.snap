@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders well in basic mode 1`] = `
+<Component>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Open up App.tsx to start working on your new app!
+  </Text>
+  <Placeholder
+    orientation="row"
+  >
+    Does this work?
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    <Placeholder
+      orientation="row"
+    >
+      This is row inner
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      This is second row inner
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      This is third row inner
+    </Placeholder>
+  </Placeholder>
+  <Placeholder
+    orientation="column"
+  >
+    <Placeholder
+      orientation="row"
+    >
+      This is inner Column
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      This is second inner
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      This is third inner
+    </Placeholder>
+  </Placeholder>
+</Component>
+`;

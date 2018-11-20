@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PointStatusBox /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Point Status
+  <Placeholder
+    orientation="row"
+  >
+    Input placeholder
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Header text
+  </Placeholder>
+</Placeholder>
+`;

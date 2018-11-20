@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnlockedReward /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  UnlockedReward
+  <RewardTileHeader />
+  <Placeholder
+    orientation="row"
+  >
+    Rectangle with white background
+    <HeaderText />
+    <RectangularButton />
+  </Placeholder>
+</Placeholder>
+`;

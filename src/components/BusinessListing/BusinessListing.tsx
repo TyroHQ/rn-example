@@ -1,12 +1,12 @@
 import React from "react";
-import { Text } from "react-native";
-import styled from "styled-components/native";
+import { View } from "react-native";
+import styled from "styled-components";
 import { Placeholder } from "../Placeholder";
 import { BusinessListingOrder } from "../BusinessListingOrder";
 import { PointStatusBox } from "../PointStatusBox";
 import { RewardTileHeader } from "../RewardTileHeader";
 
-const BusinessListingContainer = styled.View`
+const BusinessListingContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;

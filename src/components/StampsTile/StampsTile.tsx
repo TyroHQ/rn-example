@@ -1,10 +1,10 @@
 import React from "react";
-import { Text } from "react-native";
-import styled from "styled-components/native";
+import { Text, View } from "react-native";
+import styled from "styled-components";
 import { Placeholder } from "../Placeholder";
 import { RewardTileHeader } from "../RewardTileHeader";
 
-const StampsTileContainer = styled.View`
+const StampsTileContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;

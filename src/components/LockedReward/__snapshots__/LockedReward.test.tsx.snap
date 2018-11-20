@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LockedReward /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  LockedReward container
+  <RewardTileHeader />
+  <Placeholder
+    orientation="row"
+  >
+    White container
+    <SmallPointStatusBox />
+    <SmallPointStatusBox />
+    <SmallPointStatusBox />
+  </Placeholder>
+</Placeholder>
+`;

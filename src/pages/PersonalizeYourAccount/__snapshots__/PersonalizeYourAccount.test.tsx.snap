@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalizeYourAccount /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  <Placeholder
+    orientation="row"
+  >
+    Header bar
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Content area
+    <Placeholder
+      orientation="row"
+    >
+      Header text
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Explainer text
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      User icon
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Explainer text
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Input fields
+      <Placeholder
+        orientation="row"
+      >
+        Input textfield
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Input textfield
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Input textfield
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Explainer text
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Radio buttons
+      <Placeholder
+        orientation="row"
+      >
+        Radio button1
+        <Placeholder
+          orientation="row"
+        >
+          Selected radiobox
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          Input placeholder
+        </Placeholder>
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Radio button2
+        <Placeholder
+          orientation="row"
+        >
+          Unselected radiobox
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          Input placeholder
+        </Placeholder>
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Rectangular buttons
+      <Placeholder
+        orientation="row"
+      >
+        Rectangular buttonleft
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Rectangular buttonright
+      </Placeholder>
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;

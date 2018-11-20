@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StampsTile /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  Unlocked stamps open
+  <RewardTileHeader />
+  <Placeholder
+    orientation="row"
+  >
+    White container
+    <Placeholder
+      orientation="row"
+    >
+      Radio boxes container
+      <Placeholder
+        orientation="row"
+      >
+        Radio boxes up
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          unselected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          unselected radio box
+        </Placeholder>
+      </Placeholder>
+      <Placeholder
+        orientation="row"
+      >
+        Radio boxes down
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          selected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          unselected radio box
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          unselected radio box
+        </Placeholder>
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Get stamped button left
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Redeem button right
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;

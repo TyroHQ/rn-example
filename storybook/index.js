@@ -3,11 +3,12 @@ import { getStorybookUI, configure } from "@storybook/react-native";
 import { loadStories } from "./storyLoader";
 import { withKnobsOptions } from "@storybook/addon-knobs";
 import { addDecorator } from "@storybook/react-native";
-import styled from "styled-components/native";
+import { View } from "react-native";
+import styled from "styled-components";
 
 // import "./rn-addons";
 
-const StoryContainer = styled.View`
+const StoryContainer = styled(View)`
   flex: 1;
   background-color: #fff;
   align-items: center;
@@ -29,4 +30,4 @@ addDecorator(
 // import stories
 configure(loadStories, module);
 
-export default getStorybookUI({});
+export default getStorybookUI({ onDeviceUI: false, disableWebSockets: true });

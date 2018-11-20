@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignupPage2 /> renders well in basic mode 1`] = `
+<Placeholder
+  orientation="row"
+>
+  page
+  <Placeholder
+    orientation="row"
+  >
+     Header 
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Content
+    <Placeholder
+      orientation="row"
+    >
+      Account Verification
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      For password and account security verification
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      <Placeholder
+        orientation="column"
+      >
+        <Placeholder
+          orientation="row"
+        >
+          Country code
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          Input field
+        </Placeholder>
+      </Placeholder>
+      <Placeholder
+        orientation="column"
+      >
+        <Placeholder
+          orientation="row"
+        >
+          Phone number
+        </Placeholder>
+        <Placeholder
+          orientation="row"
+        >
+          Input field
+        </Placeholder>
+      </Placeholder>
+    </Placeholder>
+    <Placeholder
+      orientation="row"
+    >
+      Enter button
+    </Placeholder>
+  </Placeholder>
+</Placeholder>
+`;
