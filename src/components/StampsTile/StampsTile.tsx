@@ -3,6 +3,8 @@ import { Text, View } from "react-native";
 import styled from "styled-components";
 import { Placeholder } from "../Placeholder";
 import { RewardTileHeader } from "../RewardTileHeader";
+import { Icon } from "../Icon";
+import { RectangularButton} from "../RectangularButton";
 
 const StampsTileContainer = styled(View)`
   background-color: lightgrey;
@@ -22,27 +24,28 @@ export class StampsTile extends React.Component<{}> {
             Radio boxes container
             <Placeholder>
               Radio boxes up
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>unselected radio box</Placeholder>
-              <Placeholder>unselected radio box</Placeholder>
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
             </Placeholder>
             <Placeholder>
               Radio boxes down
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>selected radio box</Placeholder>
-              <Placeholder>unselected radio box</Placeholder>
-              <Placeholder>unselected radio box</Placeholder>
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
+              <Icon />
             </Placeholder>
           </Placeholder>
-          <Placeholder>Get stamped button left</Placeholder>
-          <Placeholder>Redeem button right</Placeholder>
+          <RectangularButton />
+          <RectangularButton />
         </Placeholder>
       </Placeholder>
     );
