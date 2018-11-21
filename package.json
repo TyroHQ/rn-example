@@ -6,11 +6,13 @@
     "start": "expo start ",
     "start:local": "yarn start --localhost",
     "eject": "expo eject",
-    "storybook": "storybook start -p 7007 --skip-packager ",
     "prestorybook": "rnstl",
     "dev": "concurrently npm:start npm:storybook",
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watch"
+    "test:watch": "jest --coverage --watch",
+    "storybook": "storybook start -p 7007 --skip-packager ",
+    "dev:lan": "REACT_NATIVE_PACKAGER_HOSTNAME=192.168.8.10 concurrently npm:start npm:storybook:lan",
+    "storybook:lan": "storybook start -p 7007 --host=192.168.8.10 --skip-packager "
   },
   "config": {
     "react-native-storybook-loader": {
