@@ -6,9 +6,9 @@
     "start": "expo start ",
     "start:local": "yarn start --localhost",
     "eject": "expo eject",
-    "storybook": "adb reverse tcp:7007 tcp:7007 && storybook start -p 7007 --skip-packager",
+    "storybook": "storybook start -p 7007 --skip-packager ",
     "prestorybook": "rnstl",
-    "dev": "concurrently npm:start:local npm:storybook",
+    "dev": "concurrently npm:start npm:storybook",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch"
   },

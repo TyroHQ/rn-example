@@ -3,8 +3,9 @@ import { getStorybookUI, configure } from "@storybook/react-native";
 import { loadStories } from "./storyLoader";
 import { withKnobsOptions } from "@storybook/addon-knobs";
 import { addDecorator } from "@storybook/react-native";
-import { View } from "react-native";
+import { View, NativeModules } from "react-native";
 import styled from "styled-components";
+import url from "url";
 
 // import "./rn-addons";
 
@@ -30,4 +31,7 @@ addDecorator(
 // import stories
 configure(loadStories, module);
 
-export default getStorybookUI({ onDeviceUI: false, disableWebSockets: true });
+const { hostname } = url.parse(NativeModules.SourceCode.scriptURL);
+
+export default getStorybookUI({ port: 7007, host: hostname });
+// export default getStorybookUI({ onDeviceUI: falsehhp});
