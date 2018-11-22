@@ -20,25 +20,11 @@ export class ReviewTile extends React.Component<{}> {
           <Placeholder>The Pantry</Placeholder>
         </Placeholder>
         <Placeholder>Small Rectangle
-        <Placeholder>Star rating
-          <Placeholder>Vector</Placeholder>
-          </Placeholder>
-          <Placeholder>Star rating
-          <Placeholder>Vector</Placeholder>
-          </Placeholder>
-          <Placeholder>Star rating
-          <Placeholder>Vector</Placeholder>
-          </Placeholder>
-          <Placeholder>Star rating
-          <Placeholder>Vector</Placeholder>
-          </Placeholder>
-          <Placeholder>Star rating
-          <Placeholder>Vector</Placeholder>
-          </Placeholder>
+        <Placeholder>Star Rating </Placeholder>
         </Placeholder>
       </Placeholder>
       <Placeholder>Rectangle - Right
-        <Placeholder>Detailed Components from your review</Placeholder>
+        <Placeholder>Detailed comments from your review</Placeholder>
       </Placeholder>
     </ReviewTileContainer>
   }
