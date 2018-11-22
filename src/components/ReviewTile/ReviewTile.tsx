@@ -12,28 +12,34 @@ export class ReviewTile extends React.Component<{}> {
   static defaultProps: ReviewTile["props"];
   render() {
     return <ReviewTileContainer>
-      <Placeholder>Empty Rating Star
+      <Placeholder>Rectangle - Left
+        <Placeholder>Small Rectangle
+          <Placeholder>07.07.18</Placeholder>
+        </Placeholder>
+        <Placeholder>Small Rectangle
+          <Placeholder>The Pantry</Placeholder>
+        </Placeholder>
+        <Placeholder>Small Rectangle
+        <Placeholder>Empty Rating Star
           <Placeholder>Vector</Placeholder>
-      </Placeholder>
-      <Placeholder>Empty Rating Star
+          </Placeholder>
+          <Placeholder>Empty Rating Star
           <Placeholder>Vector</Placeholder>
-      </Placeholder>
-      <Placeholder>Filled Rating Star
+          </Placeholder>
+          <Placeholder>Filled Rating Star
           <Placeholder>Vector</Placeholder>
-      </Placeholder>
-      <Placeholder>Filled Rating Star
+          </Placeholder>
+          <Placeholder>Filled Rating Star
           <Placeholder>Vector</Placeholder>
-      </Placeholder>
-      <Placeholder>Filled Rating Star
+          </Placeholder>
+          <Placeholder>Filled Rating Star
           <Placeholder>Vector</Placeholder>
+          </Placeholder>
+        </Placeholder>
       </Placeholder>
-      <Placeholder>Detailed Components from your review</Placeholder>
-      <Placeholder>The Pantry</Placeholder>
-      <Placeholder>07.07.18</Placeholder>
-      <Placeholder>Rectangle</Placeholder>
-      <Placeholder>Rectangle</Placeholder>
-      <Placeholder>Rectangle</Placeholder>
-      <Placeholder>Rectangle</Placeholder>
+      <Placeholder>Rectangle - Right
+        <Placeholder>Detailed Components from your review</Placeholder>
+      </Placeholder>
     </ReviewTileContainer>
   }
 }
