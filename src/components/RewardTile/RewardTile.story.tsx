@@ -1,11 +1,11 @@
 import { storiesOf } from "@storybook/react-native";
 import figmaDecorator from "storybook-addon-figma";
 
-import * as usage from "./LockedReward.usage";
+import * as usage from "./RewardTile.usage";
 
 let figma = undefined;
 
-let story = storiesOf("LockedReward", module);
+let story = storiesOf("RewardTile", module);
 
 if (figma) {
   story = story.addDecorator(

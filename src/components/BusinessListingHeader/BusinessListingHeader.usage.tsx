@@ -1,6 +1,6 @@
 import React from "react";
 import { boolean, text, number } from "@storybook/addon-knobs";
 import { action } from "@storybook/addon-actions";
-import { BusinessListingOrder } from "./";
+import { BusinessListingHeader } from "./BusinessListingHeader";
 
-export const basic = () => <BusinessListingOrder />;
+export const basic = () => <BusinessListingHeader />;

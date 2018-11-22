@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BusinessLogo /> renders well in basic mode 1`] = `
+<Styled(Component)>
+  <Placeholder
+    orientation="row"
+  >
+    Rectangle
+  </Placeholder>
+</Styled(Component)>
+`;

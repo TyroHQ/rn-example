@@ -5,13 +5,13 @@ import { Placeholder } from "../Placeholder";
 import { RewardTileHeader } from "../RewardTileHeader";
 import { SmallPointStatusBox } from "../SmallPointStatusBox";
 
-const LockedRewardContainer = styled(View)`
+const RewardTileContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;
 
-export class LockedReward extends React.Component<{}> {
-  static defaultProps: LockedReward["props"];
+export class RewardTile extends React.Component<{}> {
+  static defaultProps: RewardTile["props"];
   render() {
     return (
       <Placeholder>

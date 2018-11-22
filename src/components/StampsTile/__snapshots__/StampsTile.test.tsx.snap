@@ -18,93 +18,30 @@ exports[`<StampsTile /> renders well in basic mode 1`] = `
         orientation="row"
       >
         Radio boxes up
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          unselected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          unselected radio box
-        </Placeholder>
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
       </Placeholder>
       <Placeholder
         orientation="row"
       >
         Radio boxes down
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          selected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          unselected radio box
-        </Placeholder>
-        <Placeholder
-          orientation="row"
-        >
-          unselected radio box
-        </Placeholder>
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
+        <Icon />
       </Placeholder>
     </Placeholder>
-    <Placeholder
-      orientation="row"
-    >
-      Get stamped button left
-    </Placeholder>
-    <Placeholder
-      orientation="row"
-    >
-      Redeem button right
-    </Placeholder>
+    <RectangularButton />
+    <RectangularButton />
   </Placeholder>
 </Placeholder>
 `;

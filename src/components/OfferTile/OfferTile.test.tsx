@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
-import * as usage from "./BusinessListingOrder.usage";
+import * as usage from "./OfferTile.usage";
 
-describe("<BusinessListingOrder/>", () => {
+describe("<OfferTile />", () => {
   for (const example in usage) {
     it(`renders well in ${example} mode`, () => {
       const x = (usage as any)[example]();

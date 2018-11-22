@@ -5,7 +5,7 @@ exports[`<BusinessListing /> renders well in advanced mode 1`] = `
   orientation="row"
 >
   Business Expanded Container
-  <BusinessListingOrder />
+  <BusinessListingHeader />
   <Placeholder
     orientation="row"
   >
@@ -48,7 +48,7 @@ exports[`<BusinessListing /> renders well in basic mode 1`] = `
   orientation="row"
 >
   Business Expanded Container
-  <BusinessListingOrder />
+  <BusinessListingHeader />
   <Placeholder
     orientation="row"
   >

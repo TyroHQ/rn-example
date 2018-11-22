@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UnlockedReward /> renders well in basic mode 1`] = `
+exports[`<OfferTile /> renders well in basic mode 1`] = `
 <Placeholder
   orientation="row"
 >

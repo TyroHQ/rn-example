@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
-import * as usage from "./UnlockedReward.usage";
+import * as usage from "./BusinessListingHeader.usage";
 
-describe("<UnlockedReward />", () => {
+describe("<BusinessListingHeader />", () => {
   for (const example in usage) {
     it(`renders well in ${example} mode`, () => {
       const x = (usage as any)[example]();

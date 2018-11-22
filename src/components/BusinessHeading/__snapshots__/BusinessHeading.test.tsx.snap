@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BusinessHeading /> renders well in basic mode 1`] = `
+<Styled(Component)>
+  <Placeholder
+    orientation="row"
+  >
+    Business Logo
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Cover Business Info
+  </Placeholder>
+  <Placeholder
+    orientation="row"
+  >
+    Cover Photo
+  </Placeholder>
+</Styled(Component)>
+`;

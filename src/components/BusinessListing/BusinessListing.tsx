@@ -2,7 +2,7 @@ import React from "react";
 import { View } from "react-native";
 import styled from "styled-components";
 import { Placeholder } from "../Placeholder";
-import { BusinessListingOrder } from "../BusinessListingOrder";
+import { BusinessListingHeader } from "../BusinessListingHeader";
 import { PointStatusBox } from "../PointStatusBox";
 import { RewardTileHeader } from "../RewardTileHeader";
 
@@ -17,7 +17,7 @@ export class BusinessListing extends React.Component<{}> {
     return (
       <Placeholder>
         Business Expanded Container
-        <BusinessListingOrder />
+        <BusinessListingHeader />
         <Placeholder>
           Dropdown white Container
           <Placeholder>

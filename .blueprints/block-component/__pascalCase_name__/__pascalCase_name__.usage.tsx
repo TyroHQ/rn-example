@@ -1,6 +1,6 @@
 import React from "react";
 import { boolean, text, number } from "@storybook/addon-knobs";
 import { action } from "@storybook/addon-actions";
-import { {{pascalCase name}} } from "./{{pascalCase name}}";
+import { {{pascalCase name}} } from "./index";
 
 export const basic = () => <{{pascalCase name}} />;

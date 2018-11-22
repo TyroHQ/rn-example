@@ -4,13 +4,13 @@ import styled from "styled-components";
 import { Placeholder } from "../Placeholder";
 import { CornerBanner } from "../CornerBanner";
 
-const BusinessListingOrderContainer = styled(View)`
+const BusinessListingHeaderContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;
 
-export class BusinessListingOrder extends React.Component<{}> {
-  static defaultProps: BusinessListingOrder["props"];
+export class BusinessListingHeader extends React.Component<{}> {
+  static defaultProps: BusinessListingHeader["props"];
   render() {
     return (
       <Placeholder>

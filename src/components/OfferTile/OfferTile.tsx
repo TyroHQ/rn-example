@@ -6,13 +6,13 @@ import { RewardTileHeader } from "../RewardTileHeader";
 import { RectangularButton } from "../RectangularButton";
 import { HeaderText } from "../Typography/HeaderText";
 
-const UnlockedRewardContainer = styled(View)`
+const OfferTileContainer = styled(View)`
   background-color: lightgrey;
   padding: 10px;
 `;
 
-export class UnlockedReward extends React.Component<{}> {
-  static defaultProps: UnlockedReward["props"];
+export class OfferTile extends React.Component<{}> {
+  static defaultProps: OfferTile["props"];
   render() {
     return (
       <Placeholder>
