@@ -20,19 +20,19 @@ export class ReviewTile extends React.Component<{}> {
           <Placeholder>The Pantry</Placeholder>
         </Placeholder>
         <Placeholder>Small Rectangle
-        <Placeholder>Empty Rating Star
+        <Placeholder>Star rating
           <Placeholder>Vector</Placeholder>
           </Placeholder>
-          <Placeholder>Empty Rating Star
+          <Placeholder>Star rating
           <Placeholder>Vector</Placeholder>
           </Placeholder>
-          <Placeholder>Filled Rating Star
+          <Placeholder>Star rating
           <Placeholder>Vector</Placeholder>
           </Placeholder>
-          <Placeholder>Filled Rating Star
+          <Placeholder>Star rating
           <Placeholder>Vector</Placeholder>
           </Placeholder>
-          <Placeholder>Filled Rating Star
+          <Placeholder>Star rating
           <Placeholder>Vector</Placeholder>
           </Placeholder>
         </Placeholder>
