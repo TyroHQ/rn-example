@@ -10,6 +10,6 @@ const TitleTextContainer = styled(View)`
 export class TitleText extends React.Component<{}> {
   static defaultProps: TitleText["props"];
   render() {
-    return <Text>Title text</Text>;
+    return <TitleTextContainer>Title text</TitleTextContainer>;
   }
 }
