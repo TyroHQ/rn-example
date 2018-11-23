@@ -10,6 +10,6 @@ const ExplainerTextContainer = styled(View)`
 export class ExplainerText extends React.Component<{}> {
   static defaultProps: ExplainerText["props"];
   render() {
-    return <Text>ExplainerText</Text>;
+    return <ExplainerTextContainer>ExplainerText</ExplainerTextContainer>;
   }
 }
