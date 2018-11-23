@@ -11,6 +11,6 @@ const CoverPhotoContainer = styled(View)`
 export class CoverPhoto extends React.Component<{}> {
   static defaultProps: CoverPhoto["props"];
   render() {
-    return <Placeholder>Cover photo</Placeholder>;
+    return <CoverPhotoContainer>Cover photo</CoverPhotoContainer>;
   }
 }
