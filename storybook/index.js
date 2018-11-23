@@ -33,5 +33,4 @@ configure(loadStories, module);
 
 const { hostname } = url.parse(NativeModules.SourceCode.scriptURL);
 
-export default getStorybookUI({ port: 7007, host: hostname });
-// export default getStorybookUI({ onDeviceUI: falsehhp});
+export default getStorybookUI({ port: 7007, host: hostname, onDeviceUI: true });

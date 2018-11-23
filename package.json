@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "start": "expo start ",
-    "start:local": "yarn start --localhost",
-    "eject": "expo eject",
     "prestorybook": "rnstl",
     "dev": "concurrently npm:start npm:storybook",
     "test": "jest --coverage",
