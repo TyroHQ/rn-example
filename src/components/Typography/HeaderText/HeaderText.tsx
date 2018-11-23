@@ -10,6 +10,6 @@ const HeaderTextContainer = styled(View)`
 export class HeaderText extends React.Component<{}> {
   static defaultProps: HeaderText["props"];
   render() {
-    return <Text>Header text</Text>;
+    return <HeaderTextContainer>Header text</HeaderTextContainer>;
   }
 }
