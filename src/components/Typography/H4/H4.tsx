@@ -10,6 +10,6 @@ const H4Container = styled(View)`
 export class H4 extends React.Component<{}> {
   static defaultProps: H4["props"];
   render() {
-    return <Text>H4</Text>;
+    return <H4Container>H4</H4Container>;
   }
 }
